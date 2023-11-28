@@ -55,6 +55,7 @@
   @color declaration
   */
   --tp-common-white: #ffffff;
+  --tp-common-grey: #7c7c7c;
   --tp-common-black: #000229;
   --tp-common-orange: #FF7A41;
   --tp-common-purple: #FF75F9;
@@ -2188,7 +2189,7 @@ input[type=color] {
   width: 480px;
   bottom: 0;
   box-shadow: 0 16px -32px 0 rgba(0, 0, 0, 0.8);
-  background-color: var(--tp-common-black);
+  background-color: var(--tp-common-white); /* colour thing */
   z-index: 9999;
   padding: 50px;
   scrollbar-width: none;
@@ -2313,8 +2314,8 @@ input[type=color] {
   line-height: 50px;
   text-align: center;
   font-size: 18px;
-  background-color: var(--tp-common-white);
-  color: var(--tp-theme-1);
+  background-color: var(--tp-common-grey);
+  color: var(--tp-theme-10  );
   margin-right: 15px;
   transition: 0.3s;
   display: inline-block;
@@ -3684,14 +3685,14 @@ input[type=color] {
 .mean-container .mean-nav ul li a {
   width: 100%;
   padding: 15px 0;
-  color: #fff;
+  color: #000000;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 14px;
   line-height: 1.5;
   font-weight: 700;
 }
 .mean-container .mean-nav ul li a:hover {
-  color: var(--tp-theme-3);
+  color: var(--tp-common-blue-3);
 }
 
 .mean-container .mean-nav ul li a.mean-expand {
@@ -3702,7 +3703,7 @@ input[type=color] {
   height: 30px;
   width: 30px;
   line-height: 30px;
-  color: #fff;
+  color: #000000;
   line-height: 30px;
   top: 0;
   font-weight: 400;
